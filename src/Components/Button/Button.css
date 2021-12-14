@@ -1,0 +1,20 @@
+.button {
+    margin-top: 15px;
+}
+
+.button button {
+    background-color: #93be2e;
+    border: 1px solid #7ca813;
+    border-radius: 4px;
+    color: #1a1a1f;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 2% 0;
+}
+
+.button button:hover {
+    text-decoration: underline;
+    background-color: yellowgreen;
+}
