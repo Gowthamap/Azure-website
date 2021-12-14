@@ -1,3 +1,23 @@
+.header-des {
+    background-color: #0078d4;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-des a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-des a:hover {
+    text-decoration: underline;
+}
+
 .home {
     background-image: url('https://azurecomcdn.azureedge.net/cvt-59acfc73146e1c8512e35ae6c5e5518a5402dd994b33153cbd5853be39914df8/images/page/home/hero-desktop.png');
     width: 100%;
