@@ -2,7 +2,7 @@ import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Button from "../Button/Button";
 import "./Home.css";
-
+ 
 function Home() {
   return (
     <>
@@ -25,7 +25,7 @@ function Home() {
             the planet. Get started with an <br /> Azure free account, 12 months
             of popular services free, and a $200 credit.
           </p>
-          <Button />
+          <Button /> 
         </div>
       </div>
     </>

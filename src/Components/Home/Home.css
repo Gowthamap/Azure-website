@@ -1,59 +1,71 @@
 .header-des {
-    background-color: #0078d4;
-    padding: 12px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  background-color: #0078d4;
+  padding: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
 }
 
 .header-des a {
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .header-des a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .home {
-    background-image: url('https://azurecomcdn.azureedge.net/cvt-59acfc73146e1c8512e35ae6c5e5518a5402dd994b33153cbd5853be39914df8/images/page/home/hero-desktop.png');
-    width: 100%;
-    height: 32rem;
-    background-size: cover;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  background-image: url("https://azurecomcdn.azureedge.net/cvt-59acfc73146e1c8512e35ae6c5e5518a5402dd994b33153cbd5853be39914df8/images/page/home/hero-desktop.png");
+  width: 100%;
+  height: 32rem;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.home-section{
-    position: absolute;
-    z-index: 1;
-    margin: 0 15%;
+.home .home-section {
+  position: absolute;
+  z-index: 1;
+  margin: 0 15%;
 }
 
 .home .home-section h3 {
-    color: #50e6ff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.3;
-    margin: 0 0 9px;
+  color: #50e6ff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0 0 9px;
 }
 
 .home .home-section h2 {
-    color: #f4f5f6;
-    font-size: 54px; 
-    line-height: 1.3;
-    font-weight: 500;
+  color: #f4f5f6;
+  font-size: 54px;
+  line-height: 1.3;
+  font-weight: 500;
 }
 
 .home .home-section p {
-    color: #f4f5f6;
-    font-size: 16px;
-    line-height: 1.3;
-    word-spacing: 3px;
-    margin-top: 10px;
+  color: #f4f5f6;
+  font-size: 16px;
+  line-height: 1.3;
+  word-spacing: 3px;
+  margin-top: 10px;
 }
-
+/*# sourceMappingURL=Home.css.map */

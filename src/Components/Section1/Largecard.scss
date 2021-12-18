@@ -1,0 +1,35 @@
+.card {
+    width: 49%;
+    height: 100%;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,.14);
+    margin: 2% 0;
+
+    &:hover {
+        box-shadow: 2px 4px 7px rgba(0,0,0,.14);
+    }
+
+    h3 {
+
+        a {
+            color: #0062ad;
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        font-size: 15px;
+        color: #4c4c51;
+        margin: 12px 0;
+        line-height: 1.5rem;
+    }
+}
